@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    cursor: pointer;
+}
+
+.header_btns {
+    cursor: pointer;
+}
+
+.text {
+    color: #4A1D1F;
+    font-size: 30px;
+    letter-spacing: 9px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    gap: 46px;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: #4A1D1F;
+}
+
+.header_btns {
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+
+.search {
+    width: 45px;
+    height: 45px;
+    background-color: #4A1D1F;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+
+.search_input {
+    display: flex;
+}
